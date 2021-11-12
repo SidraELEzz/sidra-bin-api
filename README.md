@@ -20,9 +20,15 @@
 
 # Sidra-Bin-API
 
-An API to get BIN details from bins.su ( Unofficial &amp; may not work if bins.su do any changes to their site ) ([Demo](https://sidra-bin-api.vercel.app/))
+An API to get BIN details from bins.su ( Unofficial &amp; may not work if bins.su do any changes to their site ) 
 
----
+
+([Vercel](https://sidra-bin-api.vercel.app/))
+
+([herok](https://sidra-bin-api.herokuapp.com/))
+
+
+
 
 
 ## API
@@ -86,18 +92,17 @@ Response :
 {"result":false,"message":"Request a Valid BIN"}
 ```
 
----
+
 
 
 Your app should now be running on [localhost:3000](http://localhost:3000/).
 
----
+
 
 ## Deploy
- | Vercel |
- 
+
 | :---: |
-| [![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/SidraELEzz/sidra-bin-api) |
+|[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/SidraELEzz/sidra-bin-api)|
 
 `Note : Scraping is not a Fair use of Vercel`
 
