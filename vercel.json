@@ -1,0 +1,39 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "API/**",
+            "use": "@now/static"
+        },
+        {
+            "src": "app.js",
+            "use": "@now/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/api/(.*)",
+            "dest": "app.js"
+        },
+        {
+            "src": "/",
+            "dest": "API/index.html"
+        },
+        {
+            "src": "/styles.css",
+            "dest": "API/styles.css"
+        },
+        {
+            "src": "/main.js",
+            "dest": "API/main.js"
+        },
+        {
+            "src": "/loader.svg",
+            "dest": "API/loader.svg"
+        },
+        {
+            "src": "/github.png",
+            "dest": "API/github.png"
+        }
+    ]
+}
