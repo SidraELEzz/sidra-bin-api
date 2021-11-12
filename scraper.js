@@ -49,7 +49,7 @@ async function scrape(bin) {
     if (!result.match("Total found 1 bins")) {
         return JSON.stringify({
             "result": false,
-            "message": "No Results Found "
+            "message": "No Results Found @SidraTools "
         });
     }
 
@@ -62,7 +62,7 @@ async function scrape(bin) {
 
     let resp = JSON.stringify({
         "result": true,
-        "message": "Search Successful ",
+        "message": "Search Successful @SidraTools",
         "data": {
             "bin": bin,
             "vendor": vendor,
