@@ -25,7 +25,7 @@ An API to get BIN details from bins.su ( Unofficial &amp; may not work if bins.s
 
 ([Vercel](https://sidra-bin-api.vercel.app/))
 
-([herok](https://sidra-bin-api.herokuapp.com/))
+([heroku](https://sidra-bin-api.herokuapp.com/))
 
 
 
